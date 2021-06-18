@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9032670"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#C9979393"
+        android:text="Login"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#C9979393"
+        android:text="Sign Up"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#C9979393"
+        android:text="Reset"
+        android:textSize="25dp" />
+
+</LinearLayout>
